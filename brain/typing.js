@@ -1,7 +1,7 @@
 const text = document.querySelector(".typing");
 const textToSay = [
  "CE Student.", "Telegram dev.",
- "#GeekNCoder.", "Web dev (kind of).",
+ "#GeekNCoder.", "Noob Web dev .",
  "Db manager.", "Data Analyzer.",
  "Backend dev.", "Python Lover."];
 
