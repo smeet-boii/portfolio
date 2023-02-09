@@ -196,9 +196,8 @@ height: 24px;
 .stuff{
 
 margin: auto;
-width: 100%;
 border: 3px solid #73AD21;
-padding-left: 30px;
+padding-left: 50px;
 z-index:1;
 
 }
