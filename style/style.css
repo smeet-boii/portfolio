@@ -41,16 +41,6 @@ padding-right: 40px;
 
 }
 
-.stuff{
-
-margin: auto;
-width: 60%;
-padding-left: 60px;
-padding-right: 20px;
-
-}
-
-
 .grid{
   
 display: grid;
@@ -205,8 +195,8 @@ height: 24px;
 
 .stuff{
 
-margin: 10px;
-margin-left:0;
+margin: auto;
+width: 60%;
 z-index:1;
 
 }
