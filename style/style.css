@@ -33,6 +33,11 @@ padding-right: 40px;
 
 }
 
+h2{
+  
+text-align: center;
+color: white;
+
 .grid{
   
 display: grid;
@@ -48,6 +53,7 @@ font-family: 'Source Code Pro', monospace;
 font-style: normal;
 font-size: 30px;
 font-weight: 300;
+text-align: center;
 
 }
 
