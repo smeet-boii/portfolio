@@ -164,6 +164,7 @@ text-align: center;
     justify-content: center;
     padding-left: 4rem;
     margin-left: 0 !important;
+    margin: auto;
     border-radius: 0 25px 25px 0;
 /*    border: dotted blue 10px;*/
 }
@@ -199,7 +200,7 @@ margin: auto;
 margin-top: 1%;
 border: 3px solid #73AD21;
 padding-left: 40px;
-padding-right: 40px;
+padding-right: 50px;
 z-index:1;
 
 }
