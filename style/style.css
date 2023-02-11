@@ -173,6 +173,7 @@ text-align: center;
     z-index:1;
     justify-content: center;
     text-align: center;
+    margin: auto;
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
         -khtml-user-elect: none; /* Konqueror HTML */
