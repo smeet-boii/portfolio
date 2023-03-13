@@ -232,6 +232,8 @@ color: blue;
 nav{
     text-align: center;
     display: block;
+    top: 100%;
+    font-size: 10%;
 }
 
 .git{filter: invert(60%) sepia(9%) saturate(1310%) hue-rotate(232deg) brightness(93%) contrast(85%);}
