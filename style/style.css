@@ -239,6 +239,7 @@ nav{
 h6{
   padding-right: 20%;
   color: white;
+  font-style: Arial;
   }
 
 .git{filter: invert(60%) sepia(9%) saturate(1310%) hue-rotate(232deg) brightness(93%) contrast(85%);}
