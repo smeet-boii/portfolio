@@ -94,3 +94,8 @@ async function fade(element, fadeDir){
     //  }
   // }
 }
+
+
+function proj_btn() {
+    window.open("/project.html", "_self");
+}
