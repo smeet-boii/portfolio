@@ -128,6 +128,7 @@ text-align: center;
     z-index: 0;
     position: fixed;
     top: 50%;
+    bottom: 50%;
     left: 0px;
     transform: translate(0px, -50%);
     width: 100%;
@@ -138,13 +139,15 @@ text-align: center;
     flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
-    padding-left: 4rem;
+    padding-left: 0rem;
     margin-left: 0 !important;
     text-align: center;
     background: rgba(38, 56, 58, 0.6);
     backdrop-filter: saturate(110%) blur(3rem);
 
     border-radius: 0 25px 25px 0;
+    padding-bottom: 50%;
+    padding-top: 50%;
 /*    box-shadow: rgb(70 103 108 / 20%) 100px 0px 40px;*/
 /*    border: dotted red 10px;*/
 }
@@ -199,11 +202,13 @@ height: 24px;
 }
 
 .stuff{
-
-margin: auto;
+margin-bottom: 0%;
 margin-top: 5%;
-padding-left: 40px;
-padding-right: 80px;
+align-items: center;
+align-content: center;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 0%;
 z-index:1;
 
 }
@@ -229,18 +234,44 @@ color: blue;
     height: 99%;
 }
 
-nav{
-    text-align: center;
-    display: block;
-    top: 100%;
-    font-size: 10%;
+
+
+#nav{
+      text-align: center;
+      display:block;
+      color: white;
+      font-style: Arial;
+      font-size: 2rem;
+      padding-top: 2%;
 }
 
-h6{
-  padding-right: 20%;
-  color: white;
-  font-style: Arial;
-  }
+#proj_btn{
+      align-content: center;
+      align-items: center;
+      padding-top: 2%;
+}
+
+#btn{
+      font-family:'Rajdhani';
+      font-size: larger;
+      font-weight: 500;
+      font-style: normal;
+      border-radius: 0px 50px;
+      border-color: rgb(58, 231, 179);
+      padding-left: 2%;
+      padding-right: 2%;
+      color: white;
+      background-color: rgba(23, 48, 90, 0);
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+      transition-delay: .5s;
+}
+
+#btn:hover{
+      background-color: rgb(50, 150, 150);
+      border-radius: 50px 0px;
+}
 
 .git{filter: invert(60%) sepia(9%) saturate(1310%) hue-rotate(232deg) brightness(93%) contrast(85%);}
 .discord{filter: invert(24%) sepia(68%) saturate(5249%) hue-rotate(215deg) brightness(102%) contrast(102%);}
