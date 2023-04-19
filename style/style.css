@@ -263,9 +263,9 @@ color: blue;
       color: white;
       background-color: rgba(23, 48, 90, 0);
       transition-property: all;
-      transition-duration: 1s;
+      transition-duration: .5s;
       transition-timing-function: ease-in-out;
-      transition-delay: .5s;
+      transition-delay: .1s;
 }
 
 #btn:hover{
